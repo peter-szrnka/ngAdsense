@@ -55,4 +55,4 @@ See the [LICENSE](https://github.com/szrnka-peter/ngAdsense/blob/master/LICENSE)
 
 ## Changelog
 
-See the [CHANGELOG](https://github.com/szrnka-peter/ngAdsense/blob/master/CHANGELOG) file.
+See the [CHANGELOG](https://github.com/szrnka-peter/ngAdsense/blob/master/CHANGELOG.md) file.
