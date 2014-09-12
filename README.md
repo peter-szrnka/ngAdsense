@@ -1,5 +1,4 @@
 #ngAdsense
-=========
 
 Angular JS directive for Google AdSense advertisements. With ngAdsense, you can place your ads onto your website, or an Angular JS template as well.
 
