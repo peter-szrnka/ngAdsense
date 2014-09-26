@@ -1,7 +1,7 @@
 /**
  * ngAdsense AngularJS module for Google AdSense advertisements.
  * @author Peter Szrnka (szrnka.peter@gmail.com)
- * @version 1.0b
+ * @version 1.0
  */
 var ngAdSense = angular.module('ngAdsense', []);
 ngAdSense.constant('SCRIPT_URL', 'http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
@@ -9,7 +9,7 @@ ngAdSense.constant('SCRIPT_URL', 'http://pagead2.googlesyndication.com/pagead/js
 /**
  * This controller is necessary for handling the DOM manipulation.
  * @controller
- * @since 1.0b
+ * @since 1.0
  */
 ngAdSense.controller('AdsenseController', ["SCRIPT_URL", function(SCRIPT_URL) {
 	var s = document.createElement('script');
