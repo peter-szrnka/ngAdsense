@@ -1,0 +1,29 @@
+{
+  "name": "ngAdsense",
+  "main": "./src/ng-adsense.js",
+  "keywords": [
+    "angularjs",
+    "module",
+    "ngadsense"
+  ],
+  "authors": [
+    "Peter Szrnka"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/szrnka-peter/ngAdsense",
+  "ignore": [
+    "Gruntfile.coffee",
+    "karma.conf.js",
+    "**/.*",
+    "coffee",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9"
+  },
+  "devDependencies": {
+    "angular": "1.2.9"
+  }
+}
