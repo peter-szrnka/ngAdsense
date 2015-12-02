@@ -18,8 +18,10 @@ Now you have to do is add the scripts to your application. Just make sure the `n
 <script src="ng-adsense.js"></script>
 ```
 
---Bower
-`bower install ngAdsense --save`
+### Bower
+```
+bower install ngAdsense --save
+```
 
 ## Usage
 
