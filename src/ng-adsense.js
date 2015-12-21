@@ -4,7 +4,7 @@
  * @version 1.0
  */
 var ngAdSense = angular.module('ngAdsense', []);
-ngAdSense.constant('SCRIPT_URL', 'http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
+ngAdSense.constant('SCRIPT_URL', '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
 /**
  * This directive is necessary for keeping track of Google Ads <script> creation.
  * Creating it twice will result in ads returning a 400 error
