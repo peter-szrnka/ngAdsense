@@ -1,3 +1,6 @@
+## 1.2 (2015-12-21)
+#### v1.2 release: Use protocoless google ads script
+
 ## 1.1 (2015-11-18)
 #### v1.1 release: Added ability to use multiple ads per page.
 
