@@ -1,3 +1,6 @@
+## 1.3 (2016-02-05)
+#### v1.3 release: Added data-ad-format parameter to directive
+
 ## 1.2 (2015-12-21)
 #### v1.2 release: Use protocoless google ads script
 
