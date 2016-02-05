@@ -41,10 +41,11 @@ ngAdSense.directive('adsenseDirective', function() {
     return {
         restrict : 'E',
         replace : true,
-        template : '<div><ins class="adsbygoogle" style="{{cssStyle}}" data-ad-client="{{adClient}}" data-ad-slot="{{adSlot}}"></ins></div>',
+        template : '<div><ins class="adsbygoogle" style="{{cssStyle}}" data-ad-client="{{adClient}}" data-ad-slot="{{adSlot}}" data-ad-format="{{adFormat}}"></ins></div>',
         scope : {
             adClient : '@',
-            adSlot : '@',
+            adSlot : '@', 
+            adFormat : '@',
             cssStyle : '@'
         },
         controller : 'AdsenseController'
