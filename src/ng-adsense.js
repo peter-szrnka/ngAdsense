@@ -1,7 +1,7 @@
 /**
  * ngAdsense AngularJS module for Google AdSense advertisements.
  * @author Peter Szrnka (szrnka.peter@gmail.com)
- * @version 1.2.1
+ * @version 1.2
  */
 var ngAdSense = angular.module('ngAdsense', []);
 ngAdSense.constant('SCRIPT_URL', '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
