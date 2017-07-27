@@ -47,6 +47,7 @@ bower install ngAdsense --save
 		<adsense-directive 
 			ad-client="YOUR_CLIENT_ID"
 			ad-slot="YOUR_SLOT_ID" 
+			ad-format="auto"
 			css-style="display:inline-block;width:320px;height:50px;">
 		</adsense-directive>
 	</body>
