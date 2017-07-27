@@ -5,17 +5,17 @@ Angular JS directive for Google AdSense advertisements. With ngAdsense, you can 
 ## Requirements
 
  - A modern browser
- - AngularJS 1.2+
+ - AngularJS 1.6+
  
 ## Installation
 
 This module contains only one file (ngAdsense.js), so you have to download it from GitHub.
 
-Now you have to do is add the scripts to your application. Just make sure the `ng-adsense.js` file is inserted **after** the `angular.js` script:
+Now you have to do is add the scripts to your application. Just make sure the `ng-adsense.min.js` file is inserted **after** the `angular.min.js` script:
 
 ```html
-<script src="angular.js"></script>
-<script src="ng-adsense.js"></script>
+<script src="angular.min.js"></script>
+<script src="ng-adsense.min.js"></script>
 ```
 
 ### Bower
@@ -37,8 +37,8 @@ bower install ngAdsense --save
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.24/angular.min.js"></script>
-		<script type="text/javascript" src="ng-adsense.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		<script type="text/javascript" src="ng-adsense.min.js"></script>
 		<script type="text/javascript">
 			var ngAdSenseDemoApp = angular.module('DemoApp', ['ngAdsense']);
 		</script>
