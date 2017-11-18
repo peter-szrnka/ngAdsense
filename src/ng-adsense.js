@@ -1,7 +1,7 @@
 /**
  * ngAdsense AngularJS module for Google AdSense advertisements.
  * @author Peter Szrnka (szrnka.peter@gmail.com)
- * @version 1.2
+ * @version 1.4
  */
 var ngAdSense = angular.module('ngAdsense', []);
 ngAdSense.constant('SCRIPT_URL', '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
@@ -29,7 +29,7 @@ ngAdSense.controller('AdsenseController', ["SCRIPT_URL", "AdsenseTracker", funct
         document.body.appendChild(s);
         AdsenseTracker.isLoaded = true;
     }
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
+	angular.element(document).ready(function () {(window.adsbygoogle = window.adsbygoogle || []).push({})});
 }]);
 /**
  * @directive adsenseDirective
