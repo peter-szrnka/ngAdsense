@@ -20,8 +20,8 @@ addons:
     repo_token: '......'
 
 before_script:
+  - npm install -g npm@latest
   - npm install -g gulp
-  - npm install -g
   - gulp templates
 
 script:
