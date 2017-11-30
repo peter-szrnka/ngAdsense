@@ -22,7 +22,6 @@ addons:
 before_script:
   - npm install -g npm@latest
   - npm install -g gulp
-  - gulp templates
 
 script:
   - gulp test
