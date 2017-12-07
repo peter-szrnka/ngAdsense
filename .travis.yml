@@ -10,7 +10,11 @@ env:
 before_script:
   - npm install -g npm@latest
   - npm install gulp
+  - npm install karma
   - npm install gulp-karma
+  - npm install karma-phantomjs-launcher --save-dev
+  - npm install karma-jasmine --save-dev
+  - npm install karma-coverage --save-dev
 
 script:
   - gulp test
