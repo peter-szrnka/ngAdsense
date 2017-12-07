@@ -10,6 +10,7 @@ env:
 before_script:
   - npm install -g npm@latest
   - npm install angular@1.6.5
+  - npm install angular-mocks@1.6.5
   - npm install gulp
   - npm install karma
   - npm install gulp-karma
