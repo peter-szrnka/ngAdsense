@@ -2,7 +2,8 @@ var gulp = require('gulp');
 var karma = require('gulp-karma');
 
 var allFiles = [
- 'app/plugins/angular.js',
+ 'node_modules/angular/angular.js', 
+ 'node_modules/angular/angular.min.js',
  'src/*.js',
  'test/*.js'
 ];
