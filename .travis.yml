@@ -9,7 +9,7 @@ env:
     - CXX=g++-4.8  # node 4 likes the G++ v4.8 compiler
 before_script:
   - npm install -g npm@latest
-  - npm install -g gulp
+  - npm install gulp
 
 script:
   - gulp test
