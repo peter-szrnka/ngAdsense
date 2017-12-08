@@ -3,6 +3,7 @@
 Angular JS directive for Google AdSense advertisements. With ngAdsense, you can place your ads onto your website, or an Angular JS template as well.
 
 ![Build status](https://travis-ci.org/szrnka-peter/ngAdsense.svg?branch=master)
+[![codecov](https://codecov.io/gh/szrnka-peter/ngAdsense/branch/master/graph/badge.svg)](https://codecov.io/gh/szrnka-peter/ngAdsense)
 
 ## Requirements
 
