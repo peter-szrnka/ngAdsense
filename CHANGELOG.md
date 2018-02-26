@@ -1,3 +1,6 @@
+## 1.4 (2016-11-18)
+#### v1.4 release: Script loading issue fixed.
+
 ## 1.3 (2016-02-05)
 #### v1.3 release: Added data-ad-format parameter to directive
 
