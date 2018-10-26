@@ -5,6 +5,8 @@ Angular JS directive for Google AdSense advertisements. With ngAdsense, you can 
 ![Build status](https://travis-ci.org/szrnka-peter/ngAdsense.svg?branch=master)
 [![codecov](https://codecov.io/gh/szrnka-peter/ngAdsense/branch/master/graph/badge.svg)](https://codecov.io/gh/szrnka-peter/ngAdsense)
 
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7YEPKTQRNK5YA)
+
 ## Requirements
 
  - A modern browser
