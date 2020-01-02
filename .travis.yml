@@ -12,7 +12,7 @@ before_script:
   - npm install angular@1.6.5
   - npm install angular-mocks@1.6.5
   - npm install gulp
-  - npm install karma
+  - npm install karma@3.1.4
   - npm install gulp-karma
   - npm install jasmine-core --save-dev
   - npm install karma-phantomjs-launcher --save-dev
