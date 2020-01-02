@@ -18,7 +18,9 @@ before_script:
   - npm install karma-phantomjs-launcher --save-dev
   - npm install karma-jasmine --save-dev
   - npm install karma-coverage --save-dev
+  - npm install -g codecov
 
 script:
   - gulp test
+  - codecov
 #  - gulp build
