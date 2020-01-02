@@ -5,6 +5,7 @@ Angular JS directive for Google AdSense advertisements. With ngAdsense, you can 
 ![Build status](https://travis-ci.org/szrnka-peter/ngAdsense.svg?branch=master)
 [![codecov](https://codecov.io/gh/szrnka-peter/ngAdsense/branch/master/graph/badge.svg)](https://codecov.io/gh/szrnka-peter/ngAdsense)
 
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7YEPKTQRNK5YA)
 
 ## Requirements
@@ -42,21 +43,21 @@ bower install ngAdsense --save
 ```html
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-		<script type="text/javascript" src="ng-adsense.min.js"></script>
-		<script type="text/javascript">
-			var ngAdSenseDemoApp = angular.module('DemoApp', ['ngAdsense']);
-		</script>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	  <script type="text/javascript" src="ng-adsense.min.js"></script>
+	  <script type="text/javascript">
+	    var ngAdSenseDemoApp = angular.module('DemoApp', ['ngAdsense']);
+	  </script>
 	</head>
 	<body ng-app="DemoApp">
-		<adsense-directive 
-			ad-client="YOUR_CLIENT_ID"
-			ad-slot="YOUR_SLOT_ID" 
-			ad-format="auto"
-			css-style="display:inline-block;width:320px;height:50px;">
-		</adsense-directive>
+	  <adsense-directive 
+	    ad-client="YOUR_CLIENT_ID"
+	    ad-slot="YOUR_SLOT_ID" 
+	    ad-format="auto"
+	    css-style="display:inline-block;width:320px;height:50px;">
+	  </adsense-directive>
 	</body>
 </html>
 ```
