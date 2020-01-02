@@ -34,6 +34,8 @@ bower install ngAdsense --save
  2. Add the custom directive `<adsense-directive>` to your html page or template.
  3. Setup all three mandatory fields.
  4. Ready!
+ 
+ *Important: This solution cannot be tested on local developer environment!*
 
 ## Example
 
