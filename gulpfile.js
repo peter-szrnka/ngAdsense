@@ -8,7 +8,7 @@ var allFiles = [
  'test/*.js'
 ];
 gulp.task('test', function(coverage) {
-  gulp.src(allFiles)
+  return gulp.src(allFiles)
   .pipe(karma({
   configFile: 'karma.conf.js',
   action: 'run'
